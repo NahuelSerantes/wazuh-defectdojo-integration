@@ -1,0 +1,18 @@
+# Credenciales y configuraciones reales
+*.env
+.env
+.netrc
+netrc
+wazuh-defectdojo.env
+
+# Reportes temporales y respuestas
+*.log
+*.tmp
+wazuh-vulnerabilities.json
+defectdojo-response.json
+
+# Archivos del sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
