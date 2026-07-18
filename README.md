@@ -34,9 +34,11 @@ sudo git clone https://github.com/NahuelSerantes/wazuh-defectdojo-integration.gi
 
 cd wazuh-defectdojo-integration
 
-# Configurar credenciales de Wazuh
+
 
 ## NOTA : LOS SIGUIENTES 2 PASOS CUANDO TE ABREN NANO, TENES QUE COMPLETAR CON TUS APIS, MAQUINAS, ASSETES IP Y TODO LO DEMAS :
+
+# Configurar credenciales de Wazuh
 
 sudo cp config/netrc.example /root/.netrc 
 
