@@ -27,8 +27,11 @@ sudo apt install -y git curl jq
 
 # Descargar el proyecto
 sudo mkdir -p /opt
+
 cd /opt
+
 sudo git clone https://github.com/NahuelSerantes/wazuh-defectdojo-integration.git
+
 cd wazuh-defectdojo-integration
 
 # Configurar credenciales de Wazuh
