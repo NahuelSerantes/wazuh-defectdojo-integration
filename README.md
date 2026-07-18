@@ -36,7 +36,7 @@ cd wazuh-defectdojo-integration
 
 # Configurar credenciales de Wazuh
 
-## NOTA : LOS SIGUIENTES PASOS CUANDO TE ABRE NANO, TENES QUE COMPLETAR CON TUS APIS, MAQUINAS, ASSETES Y TODO LO DEMAS :
+## NOTA : LOS SIGUIENTES 2 PASOS CUANDO TE ABREN NANO, TENES QUE COMPLETAR CON TUS APIS, MAQUINAS, ASSETES IP Y TODO LO DEMAS :
 
 sudo cp config/netrc.example /root/.netrc 
 
@@ -56,14 +56,9 @@ sudo chown root:root /etc/wazuh-defectdojo.env
 
 sudo chmod 600 /etc/wazuh-defectdojo.env
 
-# Instalar el script
+# Ejecutar el script
 
-sudo install -o root -g root -m 700 \
-
-scripts/wazuh-to-defectdojo.sh \
-  
-/usr/local/bin/wazuh-to-defectdojo.sh
-
+sudo bash scripts/wazuh-to-defectdojo.sh
 
   # NOTAS DE APRENDIZAJE :
 
